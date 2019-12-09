@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.tittleBox{
+    width: 100%;
+    height: 20px;
+    background: #cccccc;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.trumpetPicture{
+    line-height: 23px;
+    margin-left: 20%;
+    float: left;
+}
+
+.hintFrame{
+    width: 950px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hint{
+    width: 335px;
+    font-size: 12px;
+    line-height: 20px;
+    color: red;
+    position: absolute;
+    left: 950px;
+}
+
+.wicket{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.warehouse{
+    width: 8400px;
+    position: absolute;
+    left: -1200px;
+}
+
+.pic{
+    width: 1200px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+
+.left{
+    width:30px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 37px;
+    color: white;
+    cursor: pointer;
+    background: red;
+    top: 170px;
+    opacity: 0;
+    position: absolute;
+    left: 30px;
+}
+.right{
+    width:30px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 37px;
+    color: white;
+    cursor: pointer;
+    top: 170px;
+    background: red;
+    opacity: 0;
+    position: absolute;
+    right:30px;
+}
+
+.pictureSubscript{
+    position: absolute;
+    left: 520px;
+    bottom: 40px;
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    background: #cccccc;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin: 0px 10px;
+    border-radius: 60%;
+}
+
+.change{
+    background: red;
+    color: white;
+}
+
